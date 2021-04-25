@@ -1,0 +1,25 @@
+locations = ['dubai', 'china', 'united states', 'canada']
+print("\nHere is the list in the original order:")
+print(locations)
+print("\nHere is the list in the sorted order:")
+print(sorted(locations))
+print("\nHere is the list back to the original order:")
+print(locations)
+print("\nHere is the list in the reverse sorted order:")
+print(sorted(locations, reverse=True))
+print(locations)
+print("\nHere is the list in the reversed order:")
+locations.reverse()
+print(locations)
+print("\nHere is the list in the reversed order again going back to the original order:")
+locations.reverse()
+print(locations)
+
+print("\nHere is the list sorted permanently:")
+locations.sort()
+print(locations)
+
+print("\nHere is the list reverse sorted permanently:")
+locations.sort(reverse=True)
+print(locations)
+
