@@ -1,6 +1,9 @@
 my_foods = ['pizza', 'falafel', 'carrot_cake']
 friend_foods = my_foods[:]
 
+# if it's used that way will show the wrong result
+# friend_foods = my_foods
+
 my_foods.append('canoli')
 friend_foods.append('ice cream')
 
