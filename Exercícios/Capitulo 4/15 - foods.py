@@ -12,3 +12,10 @@ print(my_foods)
 
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
+
+
+for food in my_foods:
+    print(food)
+
+for food in friend_foods:
+    print(food)
