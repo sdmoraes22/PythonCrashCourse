@@ -3,7 +3,7 @@ age = 65
 if age < 2:
     print("Is a baby")
 
-elif age >=2 and age < 4:
+elif age >= 2 and age < 4:
     print("Is a toddler")
 
 elif age >= 4 and age < 13:
