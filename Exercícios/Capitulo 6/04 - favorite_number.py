@@ -6,5 +6,8 @@ favorite_numbers = {
     'Andre': 5,
 }
 
-for key in favorite_numbers:
-    print(f"{key} favorite number is {favorite_numbers[key]}")
+print(f"Mike's favorite number is {favorite_numbers['Mike']}")
+print(f"John's favorite number is {favorite_numbers['John']}")
+print(f"Sarah's favorite number is {favorite_numbers['Sarah']}")
+print(f"Adam's favorite number is {favorite_numbers['Adam']}")
+print(f"Andre's favorite number is {favorite_numbers['Andre']}")
